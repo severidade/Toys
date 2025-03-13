@@ -10,3 +10,4 @@ export default defineConfig({
 });
 ```
 Isso permitirá que o Vite reconheça arquivos .glb como ativos e os trate corretamente no processo de build.
+tes
