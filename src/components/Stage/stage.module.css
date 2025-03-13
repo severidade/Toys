@@ -1,7 +1,8 @@
 .stage {
-  width: 50vw;
+  width: 100%;
   height: 70vh;
   /* background: tomato; */
+  /* border: solid 1px tomato; */
   position: relative;
   cursor: pointer;
   /* position: absolute;
