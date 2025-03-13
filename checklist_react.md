@@ -3,10 +3,10 @@
 <details>
     <summary>Criar e configurar uma aplicação React usando o VITE</summary>
 
-- [ ] Criar o diretório do projeto;
-- [ ] Instalar o react usando o Vite ``npm create vite@latest`` ;
+- [x] Criar o diretório do projeto;
+- [x] Instalar o react usando o Vite ``npm create vite@latest`` ;
       obs: entrar na pasta mas nao instalar as dependencias. so fazer isso depois de instalr o eslint
-- [ ] Alterar a chave ``dev`` do arquivo ``package.json``  ;
+- [x] Alterar a chave ``dev`` do arquivo ``package.json``  ;
 
     ```bash
 
@@ -21,10 +21,11 @@
 <details>
     <summary>Configurar o ESLint</summary>
 
-- [ ] excluir o arquivo de configuração de lint criado pelo vite com o comando:
+- [x] excluir o arquivo de configuração de lint criado pelo vite com o comando:
 
     ```bash
     rm .eslintrc.cjs
+    eslint.config.js
     ```
 - [ ] Remover as dependências que foram instaladas pelo Vite.
 
