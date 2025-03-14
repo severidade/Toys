@@ -4,7 +4,6 @@
   position: relative;
   cursor: pointer;
   margin-bottom: 10vh;
-  z-index: -1;
 }
 
 .stage::before{
@@ -19,6 +18,7 @@
   opacity: 50%;
   -webkit-transform: translate(0, -17%) rotate(0deg);
   transform: translate(0, -17%) rotate(0deg);
+  z-index: -1;
 }
 
 .canvas {
