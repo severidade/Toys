@@ -38,6 +38,7 @@ main{
   align-items: center;
   gap: 10px;
   padding-top: 5vh;
+  overflow: hidden;
 }
 
 .app_title  {
