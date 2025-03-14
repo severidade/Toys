@@ -68,7 +68,7 @@ function Stage() {
         {/* Suspense para gerenciar o estado de carregamento */}
         <Suspense fallback={<Loader />}>
           {/* Luz ambiente para iluminar todo o modelo */}
-          <ambientLight intensity={0.5} />
+          <ambientLight intensity={0.1} />
           {/* Luz direcional vinda de cima */}
           <directionalLight position={[5, 5, 5]} intensity={2} />
           {/* Luz pontual para criar sombras e realces */}
