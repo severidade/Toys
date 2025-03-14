@@ -17,7 +17,7 @@ Este projeto utiliza React, Three.js e @react-three/fiber para renderizar um mod
 
 ## Modelo 3D
 
-O modelo 3D utilizado nesta aplicação está localizado em public/operario.glb. Este modelo foi gerado utilizando a ferramenta [tripo3d.ai](https://www.tripo3d.ai/)
+O modelo 3D utilizado nesta aplicação foi gerado utilizando a ferramenta [tripo3d.ai](https://www.tripo3d.ai/).
 
 ## Tecnologias
 
