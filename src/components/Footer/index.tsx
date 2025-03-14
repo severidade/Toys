@@ -17,7 +17,7 @@ function Footer() {
         <a
           className={styles.external_link}
           target="_blank"
-          href="https://github.com/severidade"
+          href="https://github.com/severidade/Toys"
           rel="noreferrer"
         >
           neste repositório
