@@ -1,16 +1,10 @@
 .stage {
   width: 60vw;
   height: 350px;
-  /* background: tomato; */
   position: relative;
   cursor: pointer;
   margin-bottom: 10vh;
-  /* border: tomato 1px solid; */
-  /* position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer; */
+  z-index: -1;
 }
 
 .stage::before{
