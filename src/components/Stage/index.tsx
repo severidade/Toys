@@ -34,7 +34,7 @@ function Loader() {
 
 // Componente para o modelo 3D com animação via GSAP
 function Model() {
-  const { scene } = useGLTF('/operario.glb');
+  const { scene } = useGLTF('/ice.glb');
   const modelRef = useRef();
 
   useEffect(() => {
@@ -52,7 +52,7 @@ function Model() {
     <primitive
       ref={modelRef}
       object={scene}
-      scale={1}
+      scale={2}
       position={[0, 0, 0]}
       rotation={[0, 0, 0]} // Rotação inicial zerada
     />
@@ -61,8 +61,11 @@ function Model() {
 
 function Stage() {
   // Convertendo 115 graus para radianos
-  const maxVerticalAngle = (115 * Math.PI) / 180;
-  const minVerticalAngle = (65 * Math.PI) / 180;
+  // const maxVerticalAngle = (115 * Math.PI) / 180;
+  // const minVerticalAngle = (65 * Math.PI) / 180;
+
+  const maxVerticalAngle = (220 * Math.PI) / 180;
+  const minVerticalAngle = (0 * Math.PI) / 180;
 
   return (
     <div className={styles.stage}>
@@ -78,7 +81,7 @@ function Stage() {
             minDistance={1.5}
             maxDistance={4}
             enableRotate
-            rotateSpeed={0.5}
+            rotateSpeed={0.1}
             minPolarAngle={minVerticalAngle}
             maxPolarAngle={maxVerticalAngle}
             enablePan={false}
@@ -90,6 +93,6 @@ function Stage() {
 }
 
 // Precarregar o modelo para melhorar o desempenho
-useGLTF.preload('/operario.glb');
+useGLTF.preload('/ice.glb');
 
 export default Stage;
