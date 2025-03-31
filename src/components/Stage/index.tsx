@@ -9,7 +9,7 @@ import styles from './stage.module.css';
 
 // Componente para o modelo 3D com animação
 function Model() {
-  const { scene } = useGLTF('/operario.glb');
+  const { scene } = useGLTF('/ice.glb');
   const modelRef = useRef();
 
   // Hook para animação - roda a cada frame
