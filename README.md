@@ -1,5 +1,5 @@
 ![Prévia da página - Preview of the page](./public/avatar_01.png) 
-Renderização de Objeto 3D no Navegador usando Three.js e React.
+Renderização de Objeto 3D no Navegador usando Three.js e React
 
 ## Visão Geral
 
